@@ -27,6 +27,10 @@
 .logo {
   font-family: var(--secondary-font);
   color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
 }
 
 .logo-word {
@@ -57,6 +61,14 @@
 .header-link-current {
   color: var(--acent-cl);
 }
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
 .contacts-link {
   color: #757575;
 }
@@ -74,10 +86,12 @@
 }
 .btn {
   font-family: inherit;
+
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
   color: #ffffff;
   background: var(--acent-cl);
 }
@@ -98,7 +112,8 @@
 .footer {
   background-color: var(--dark-bg-cl);
 }
-.contacts-item {
+.footer-contacts-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
