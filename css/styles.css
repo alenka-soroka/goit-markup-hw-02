@@ -85,7 +85,7 @@
   background-color: #2587d6;
 }
 .btn {
-  font-family: inherit;
+  font-family: 'Roboto';
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -111,17 +111,26 @@
 .footer {
   background-color: var(--dark-bg-cl);
 }
-.footer-contacts-link {
+
+.contacts-list {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
 }
 .contacts-link-add {
+  font-family: 'Roboto';
   font-style: normal;
-  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+.footer-contacts-link {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Студия */
